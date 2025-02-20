@@ -1,4 +1,4 @@
-export default async function handler(){
+export async function handler(){
     console.log('Request received:', new Date().toISOString());
 
     return {
